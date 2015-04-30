@@ -9,6 +9,8 @@
             var spanTag = document.getElementById("word"+i);
             spanTag.textContent = text;
         }
+        var pElement = document.getElementById("adLibParagraph");
+        pElement.hidden = false;
     }
 </script>
 
@@ -28,7 +30,7 @@
     <button type="submit">Fill It In!</button>
 </form>
 
-<p>
+<p id="adLibParagraph" hidden>
 <span id="word1"></span> loved coding at the <span id="word2"></span> it was SO <span id="word3"></span>.  His/her best friend was <span id="word4"></span>, a <span id="word5"></span> that could <span id="word6"></span> a <span id="word7"></span>.  Their favorite thing to do together was to <span id="word8"></span> in the <span id="word9"></span>.
 </p>
 
